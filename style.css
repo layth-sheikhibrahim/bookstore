@@ -111,4 +111,34 @@
     height: auto;
 }
 }
+.feature {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vw;
+    padding: 6vh 10vw;
+}
 
+.feature-boxes {
+    text-align: center;
+    padding: 0.5rem;
+    border: thin solid var(--primeColor);
+    box-shadow: 0rem 0rem 1rem rgb(13, 154, 149, 0.5);
+    flex: 1 1 17%;
+
+    i {
+    font-size: 2.5rem;
+    color: var(--primeColor);
+    margin-bottom: 1rem;
+}
+
+}
+
+.feature-boxes h1 {
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.feature-boxes p {
+    font-size: 90%;
+}
