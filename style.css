@@ -298,3 +298,15 @@
     
 }
 
+#featured,
+#arrivals {
+  background-color:var(--whiteColor);
+  font-family: sans-serif;
+}
+#featured > h1,
+#arrivals > h1 {
+  color: var(--blackColor);
+  font-size: 2.5em;
+  margin: 1em 0;
+  text-align: center;
+}
