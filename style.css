@@ -682,4 +682,147 @@ img {
         padding: 0.3rem 0.5rem;
     }
 }
-    
+
+footer {
+    width: 100%;
+    /*position: absolute;*/
+    bottom: 0;
+    background-color: var(--lightGrey);
+    padding-bottom: 0.3em;
+    font-size: 0.9em;
+}
+
+.row {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.col {
+    flex-basis: 15%;
+}
+
+
+.logo {
+    width: 5rem;
+    align-self: flex-start; 
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.logo-div {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+}
+
+.justified-text {
+  text-align: justify;
+  line-height: 1.3em;
+  margin: 0;
+}
+
+
+.col h3 {
+    /*width: fit-content;*/
+    margin-bottom: 1.7rem;
+    position: relative;
+    font-size: 1.5em;
+}
+
+ul {
+    padding-left: 0; 
+    margin-left: 0;
+    list-style-position: inside;
+
+    li {
+    list-style: none;
+
+        a {
+        text-decoration: none;
+        color: var(--blackColor);
+        display: block;
+        margin-bottom: 0.8em;
+        }
+    }
+}
+
+
+ul li 
+
+.social-icons {
+    .fab{
+    text-align: center;
+    cursor: pointer;
+    }
+
+    i {
+    margin: 0.4em;
+    cursor: pointer;
+    }
+}
+
+
+form
+{
+    input {
+    background-color: var(--darkGrey);
+    color: var(--darkerGrey);
+    border: 0;
+    width: 14em;
+    height: 1.9em;
+    border-radius: 0.9em;
+    outline: none;
+    }
+
+    button {
+    color: var(--whiteColor);
+    background-color: var(--primeColor);
+    border: 0;
+    border-radius: 0.9em;
+    outline: none;
+    width: 6em;
+    height: 1.8em;
+    text-align: center;
+    margin-top: 0.3em;
+    cursor: pointer;
+    }
+} 
+
+.copyright {
+    text-align: center;
+
+    .copyright-company {
+    color: var(--primeColor);
+    }
+}
+
+
+
+@media (max-width: 700px)
+{
+    footer{
+        bottom: unset;
+        padding: 2em 1em;
+    }
+
+    .row {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .col{
+        flex-basis: 45%;
+        margin-bottom: 1em;
+    }
+
+    .first-prime {
+        color: var(--primeColor);
+    }
+
+}
+
